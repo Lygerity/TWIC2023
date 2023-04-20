@@ -1,0 +1,43 @@
+/* Style pour les titres de la page */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Style pour les select */
+select {
+    font-size: 1.2em;
+    padding: 5px;
+    width: 250px;
+}
+
+/* Style pour les boutons */
+input[type="submit"],
+input[type="button"] {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Style pour le message de résultat */
+p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
